@@ -1,0 +1,83 @@
+Objetivo geral: Fazer um sistema de entrada e descarga de mercadorias em portos. Registrando a chegada de conteineres, seu conteúdo e onde foi alocado, assim como a quem pertence.
+
+Estruturas que podem/devem ser usadas: Pilhas, Matrizes(Grafos), Arvores, Lista.
+
+Possíveis funções:
+
+ - Inserir_Contâiner();
+ {
+ 	Quantos: //Se tiver mais que um
+ 	Identificador da empresa:
+ 	
+ 	Supondo que há espaço...
+ 	
+ 	Tipo: //Pra cada conteiner
+ 	
+ }
+ 
+ 
+ - Despachar_Contâiner();
+ 
+ {
+ 	Quantos:
+ 	Identificador da empresa: 
+ 	
+ 	Supondo que há conteineres...
+ 	
+ 	Retornar os ids de todos conteineres dessa empresa // Podemos utilizar arvores
+ 	
+ 	Id do conteiner // Pra cada conteiner que deseja ser despachado
+ 	
+ }
+ 
+ - Consultar_Histórico();{
+ 
+ 	Mostrar as 10 últimas entradas (seja única ou multipla) e saídas (sequindo o mesmo critério)
+ 	
+ 	
+ 
+ - Consultar_Carga();{
+ 
+ 	Qual a empresa: 
+ 	
+ 	Mostrar todos os containers daquela empresa...
+ 	
+ 	Digite o id do conteiner desejado:
+ 	
+ 	Printar o conteúdo...
+ }
+ 
+ - Consultar_Responsável();
+ {
+ 	Printar o id de todos os containers...
+ 	
+ 	Digitar o id do container:
+ 	
+ 	Mostrar empresa responsável e carga?
+ 	
+ }
+ 
+ - Alocar_conteúdo(); {
+ 
+ 	Não vai funcionar para mudar a carga do container em si mas pode servir para alocar os conteineres nos navios caso utilizemos o esquema de produtor/consumidor.
+ 	
+ }
+ 
+ - Atualizar_registro(); {
+ 	
+ 	Depende da anterior tambem e pode ser utilizada de maneira automática ou manual para desalocar a memória dos containers que foram removidos ou despachados (caso a regra do produtor/consumidor seja aplicada).
+ 
+ typedef struct navio{
+ 
+ 	short int id;
+ 
+ 	struct conteiner Leva[2][4];
+ 	
+ } Navio;
+ 	
+ 
+	
+	
+
+	
+	
