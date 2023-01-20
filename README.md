@@ -1,9 +1,9 @@
 ﻿# Estrutura-de-dados---Unicamp
 #
 
-SEDEP - Sistema de Entrada e Descarga em Portos
+SEDEP - Sistema de Entrada e Descarga em Portos.
 
-Software desenvolvido como trabalho da disciplina de Estrutura de Dados I 
+Software desenvolvido como trabalho da disciplina de Estrutura de Dados I.
 
 Membros do grupo: Igor Paulo dos Santos Santana - 198643, Elias Matias Custódio - 247056, Matheus Siqueira Fernandes - 231147. 
 
